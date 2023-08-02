@@ -1,6 +1,6 @@
 import React from "react";
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
-
+import './Cart.scss'
 const Cart = () => {
   const data = [
     {
@@ -22,10 +22,10 @@ const Cart = () => {
             <img src={item.img} alt="" />
 
             <div className="details">
-                <h1>{item.title}</h1>
+                <h3>{item.title}</h3>
                 <p>{item.title?.substring(0,70)}</p>
                 <div className="price">
-                    ${item.price}
+                    ${item.newPrice}
                 </div>
             </div>
             <DeleteOutlineIcon className="delete"/>
