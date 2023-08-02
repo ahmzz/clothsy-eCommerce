@@ -23,7 +23,7 @@ const Product = () => {
       </div>
       <div className="right">
         <h1>Title</h1>
-        <span>$100</span>
+        <span className="price">$100</span>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde illo
           officiis, omnis inventore quod suscipit consequuntur, perspiciatis
